@@ -26,22 +26,22 @@ Each complete dataset is provided. The smallest is 11 MB and the largest is 17 G
 Four options are provided. The FULL version of the dataset is a pandas dataframe with the data preprocessed from the original. The TRAINING dataset is a 70% subset while VALIDATION and TESTING are a 15% split respectively. Some methods did not need VALIDATION. When this happened, TRAINING and VALIDATION were merged.
 
 
-| DB           | Size (GB)    | FULL     | TRAINING | VALIDATION | TESTING  |
-|--------------|--------------|----------|----------|------------|----------|
-| Opcua        | 0.011        | Download | Download | Download   | Download |
-| InSDN        | 0.083        | Download | Download | Download   | Download |
-| NDSec-1      | 0.136        | Download | Download | Download   | Download |
-| Hikari       | 0.165        | Download | Download | Download   | Download |
-| UNSW NB15    | 0.303        | Download | Download | Download   | Download |
-| CIC IDS 2017* | 0.553        | Download | Download | Download   | Download |
-| CIDDS        | 0.672        | Download | Download | Download   | Download |
-| ISCX 2012    | 0.990        | Download | Download | Download   | Download |
-| ToN IoT      | 2.080        | Download | Download | Download   | Download |
-| USB IDS      | 2.530        | Download | Download | Download   | Download |
-| Litnet       | 4.260        | Download | Download | Download   | Download |
-| BotIot       | 4.630        | Download | Download | Download   | Download |
-| DDoS 2019    | 13.50        | Download | Download | Download   | Download |
-| CSE CIC 2018* | 17.00        | Download | Download | Download   | Download |
+| DB           | Size (GB)    | FULL                                                                                                                                                                                    | TRAINING | VALIDATION | TESTING  |
+|--------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|----------|
+| Opcua        | 0.011        | [:arrow_down:](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/opcua_no_id_complete.pkl?csf=1&web=1&e=Moonxa)                        | [Download]() | [Download]()   | [Download]() |
+| InSDN        | 0.083        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/insdata_no_flow_id_no_ts_complete.pkl?csf=1&web=1&e=kgNjAc)           | [Download]() | [Download]()   | [Download]() |
+| NDSec-1      | 0.136        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/nds1_clean_complete.pkl?csf=1&web=1&e=kXSGsT)                         | [Download]() | [Download]()   | [Download]() |
+| Hikari       | 0.165        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/hikari_no_flow_id_complete.pkl?csf=1&web=1&e=dDq2ul)                  | [Download]() | [Download]()   | [Download]() |
+| UNSW NB15    | 0.303        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/nfunswnb15_no_flow_id_complete.pkl?csf=1&web=1&e=5kKsZx)              | [Download]() | [Download]()   | [Download]() |
+| CIC IDS 2017* | 0.553       | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/dataset_cicids2017_87_cols_no_time_no_id.pkl?csf=1&web=1&e=G6pMbQ)    | [Download]() | [Download]()   | [Download]() |
+| CIDDS        | 0.672        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/cidds_clean_complete.pkl?csf=1&web=1&e=R30zha)                        | [Download]() | [Download]()   | [Download]() |
+| ISCX 2012    | 0.990        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/iscx2012_clean_complete.pkl?csf=1&web=1&e=dJ8qkh)                     | [Download]() | [Download]()   | [Download]() |
+| ToN IoT      | 2.080        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/nftoniot_no_flow_id_complete.pkl?csf=1&web=1&e=hnUugR)                | [Download]() | [Download]()   | [Download]() |
+| USB IDS      | 2.530        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/usb_ids.pkl?csf=1&web=1&e=SxY4zg)                                     | [Download]() | [Download]()   | [Download]() |
+| Litnet       | 4.260        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/litnet_cleaned_complete.pkl?csf=1&web=1&e=6EqC29)                     | [Download]() | [Download]()   | [Download]() |
+| BotIot       | 4.630        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/nfbotiot_no_flow_id_complete.pkl?csf=1&web=1&e=rFjETl)                | [Download]() | [Download]()   | [Download]() |
+| DDoS 2019    | 13.50        | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/cic_ids_2019_no_id_no_ts.pkl?csf=1&web=1&e=RHSviN)                    | [Download]() | [Download]()   | [Download]() |
+| CSE CIC 2018* | 17.00       | [Download](https://uottawa-my.sharepoint.com/personal/pbranco_uottawa_ca/Documents/IDS-paper-datasets/Full%20Data/cic_ids_2018_no_flow_id_no_ts_w_labels.pkl?csf=1&web=1&e=dh3qgR)      | [Download]() | [Download]()   | [Download]() |
 
 * The original versions had bugs after Network Flows extraction. These versions come from fixed versions. 
 
