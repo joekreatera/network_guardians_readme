@@ -15,12 +15,12 @@ The study covers 14 datasets in different formats and files. The following links
 import pickle
 with open('opcua_no_id_complete.pkl','rb') as f:
     df = pickle.load(f)
-    df.describe()
+    print( df.info() )
 ```
 
 All datasets are Pandas DataFrames. 
 
-### Datasets:
+### Files:
 Each complete dataset is provided. The smallest is 11 MB and the largest is 17 GB aprox. A complete download of the 14 datasets would need 47 GB. These datasets have already been processed to the smallest data type possible on each column. 
 
 Four options are provided. The FULL version of the dataset is a pandas dataframe with the data preprocessed from the original. The TRAINING dataset is a 70% subset while VALIDATION and TESTING are a 15% split respectively. Some methods did not need VALIDATION. When this happened, TRAINING and VALIDATION were merged.
@@ -33,7 +33,7 @@ Four options are provided. The FULL version of the dataset is a pandas dataframe
 | NDSec-1      | 0.136        | Download | Download | Download   | Download |
 | Hikari       | 0.165        | Download | Download | Download   | Download |
 | UNSW NB15    | 0.303        | Download | Download | Download   | Download |
-| CIC IDS 2017 | 0.553        | Download | Download | Download   | Download |
+| CIC IDS 2017* | 0.553        | Download | Download | Download   | Download |
 | CIDDS        | 0.672        | Download | Download | Download   | Download |
 | ISCX 2012    | 0.990        | Download | Download | Download   | Download |
 | ToN IoT      | 2.080        | Download | Download | Download   | Download |
@@ -41,16 +41,27 @@ Four options are provided. The FULL version of the dataset is a pandas dataframe
 | Litnet       | 4.260        | Download | Download | Download   | Download |
 | BotIot       | 4.630        | Download | Download | Download   | Download |
 | DDoS 2019    | 13.50        | Download | Download | Download   | Download |
-| CSE CIC 2018 | 17.00        | Download | Download | Download   | Download |
+| CSE CIC 2018* | 17.00        | Download | Download | Download   | Download |
+
+* The original versions had bugs after Network Flows extraction. These versions come from fixed versions. 
+
+## Methods
+
+All the techniques implemented are provided by their original authors. In the following table, the original link is provided as well as a working copy that was used on the experiments. The names follow the convention shown on the paper. Each copy has a job-scripts folder with different shell scripts that were used for the SLURM jobs. The files should be used as an example of how to run each algorithm. All of these methods suppose, regarding the job scripts, that data is located two levels above, inside "datasets/<dataset name>" folder. Methods worked with Python versions 9,10 and 11, as each job script shows.   
 
 
 
+| Method       | Working Copy    | Original version     |
+|--------------|-----------------|----------------------|
+| LCCDE        | [Github](https://github.com/joekreatera/cc_dbn_ids_torch)           | Download             |
+| EFC          | 0.083           | Download             |
+| NN           | 0.136           | Download             |
+| CNN          | 0.165           | Download             |
+| DBN          | 0.303           | Download             |
+| EGS          | 0.553           | Download             |
+| CFC          | 0.553           | Download             |
 
-Methods
-LCCDE
-EFC
-NN
-CNN
-DBN
-EGS
-CFC
+
+### Libraries
+
+All the solutions presented above had different configurations. It is recommended to use virtual environments as some of them were based on PyTorch while on Keras with Tensorflow or even XBoost. 
