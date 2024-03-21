@@ -51,15 +51,15 @@ All the techniques implemented are provided by their original authors. In the fo
 
 
 
-| Method       | Working Copy    | Original version     |
-|--------------|-----------------|----------------------|
-| LCCDE        | [Github](https://github.com/joekreatera/cc_dbn_ids_torch)           | Download             |
-| EFC          | 0.083           | Download             |
-| NN           | 0.136           | Download             |
-| CNN          | 0.165           | Download             |
-| DBN          | 0.303           | Download             |
-| EGS          | 0.553           | Download             |
-| CFC          | 0.553           | Download             |
+| Method       | Working Copy                                                                   | Original version                                                      |
+|--------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| LCCDE        | [Github](https://github.com/joekreatera/cc_boost_ids_ml)                       | [Github](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning)              |
+| EFC          | [Github](https://github.com/joekreatera/cc_efc_ids_ml)                         | [Github](https://github.com/EnergyBasedFlowClassifier/EFC-package)              |
+| NN           | [Github](https://github.com/joekreatera/cc_deep_learning_ids_tf)               | [Github](https://github.com/Colorado-Mesa-University-Cybersecurity/DeepLearning-IDS)              |
+| CNN          | [Github](https://github.com/joekreatera/cc_deep_learn_ids_tf)                  | [Github](https://github.com/dwday/deep_learn_ids)              |
+| DBN          | [Github](https://github.com/joekreatera/cc_dbn_ids_torch)                      | [Github](https://github.com/othmbela/dbn-based-nids)              |
+| EGS          | [Github](https://github.com/joekreatera/cc_e_graph_sage_ids_torch)             | [Github](https://github.com/waimorris/E-GraphSAGE)              |
+| CFC          | [Github](https://github.com/joekreatera/cc_conflow_ids_torch)                  | [Github](https://github.com/AshinWang/ConFlow?tab=readme-ov-file)              |
 
 
 ### Libraries
